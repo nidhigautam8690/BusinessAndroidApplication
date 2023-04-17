@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/gradient"
+
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="60dp">
+            <EditText
+                android:id="@+id/pr_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:layout_marginTop="20dp"
+                android:hint="Name"
+                android:inputType="textPersonName"
+                android:drawableLeft="@drawable/ic_action_name"
+                android:textColorHint="@color/colorHint"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:id="@+id/pr_address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Address"
+                android:inputType="textPostalAddress"
+                android:drawableLeft="@drawable/ic_action_address"
+                android:textColorHint="@color/colorHint"
+
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <EditText
+                android:id="@+id/pr_mobile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Mobile No."
+                android:inputType="phone"
+                android:drawableLeft="@drawable/ic_action_mobile"
+                android:textColorHint="@color/colorHint"
+
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <EditText
+                android:id="@+id/pr_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Email"
+                android:inputType="textEmailAddress"
+                android:drawableLeft="@drawable/ic_action_stat_email"
+
+                android:textColorHint="@color/colorHint"
+
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:id="@+id/pr_vehicle_no"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Vehicle No."
+                android:inputType="textPersonName"
+                android:drawableLeft="@drawable/ic_action_vehicle_no"
+                android:textColorHint="@color/colorHint"
+
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:id="@+id/pr_vehicle_type"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Vehicle Type"
+                android:inputType="textPersonName"
+                android:drawableLeft="@drawable/ic_action_vehicle_type"
+                android:textColorHint="@color/colorHint"
+
+                />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:id="@+id/pr_vehicle_brand"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Vehicle Brand"
+                android:inputType="textPersonName"
+                android:drawableLeft="@drawable/ic_action_vehicle_brand"
+                android:textColorHint="@color/colorHint"
+
+                />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <EditText
+                android:id="@+id/pr_vehicle_subbrand"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Vehicle SubBrand"
+                android:inputType="textPersonName"
+                android:drawableLeft="@drawable/ic_action_vehicle_brand"
+                android:textColorHint="@color/colorHint"
+
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:id="@+id/pr_vehicle_fueltype"
+                android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Vehicle Fuel Type"
+                android:inputType="textPersonName"
+                android:drawableLeft="@drawable/ic_action_fuel_type"
+                android:textColorHint="@color/colorHint"
+
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/btn_business"
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                app:cardBackgroundColor="@color/colorAccent"
+                android:layout_centerHorizontal="true"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="10dp"
+                android:layout_marginTop="50dp"
+                >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/business_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Business"
+                        android:textSize="18dp"
+                        android:layout_centerInParent="true"
+                        android:textColor="#fff"/>
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <EditText
+                android:id="@+id/pr_business_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Business Name"
+                android:visibility="gone"
+                android:inputType="textPersonName"
+                android:drawableLeft="@drawable/ic_action_name"
+                android:textColorHint="@color/colorHint"
+
+                />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <EditText
+                android:id="@+id/pr_business_contact"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:ems="10"
+                android:hint="Business Contact"
+                android:inputType="textPersonName"
+                android:drawableLeft="@drawable/ic_action_mobile"
+                android:textColorHint="@color/colorHint"
+
+                />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:id="@+id/pr_business_website"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Website"
+                android:visibility="gone"
+                android:inputType="textPersonName"
+                android:drawableLeft="@drawable/ic_action_website"
+                android:textColorHint="@color/colorHint"
+
+                />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <EditText
+                android:id="@+id/pr_business_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Business Email"
+                android:visibility="gone"
+
+                android:inputType="textPersonName"
+                android:drawableLeft="@drawable/ic_action_stat_email"
+                android:textColorHint="@color/colorHint"
+
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <EditText
+                android:id="@+id/pr_business_address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Business Address"
+                android:visibility="gone"
+                android:inputType="textPersonName"
+                android:drawableLeft="@drawable/ic_action_address"
+                android:textColorHint="@color/colorHint"
+
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <EditText
+                android:id="@+id/pr_business_workinghours"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Business Working Hours"
+                android:visibility="gone"
+                android:onClick="visible"
+                android:inputType="textPersonName"
+                android:drawableLeft="@drawable/ic_action_clock"
+                android:textColorHint="@color/colorHint"
+
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/btn_submit_business"
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                app:cardBackgroundColor="@color/colorAccent"
+                android:layout_centerHorizontal="true"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="10dp"
+                android:layout_marginTop="50dp"
+                >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/submit_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Submit"
+                        android:textSize="18dp"
+                        android:layout_centerInParent="true"
+                        android:textColor="@color/colorLinks"
+                        />
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</ScrollView>
+

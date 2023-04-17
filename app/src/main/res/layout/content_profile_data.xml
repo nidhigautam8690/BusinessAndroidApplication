@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/gradient"
+
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:src="@mipmap/business_profile"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+            <TextView
+                android:id="@+id/customer_pr_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ic_action_name"
+                android:textColor="@color/colorHint"
+                android:textSize="20dp"
+                android:layout_margin="10dp"
+                android:drawablePadding="20dp"/>
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:ignore="Orientation">
+            <TextView
+                android:id="@+id/customer_pr_address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ic_action_address"
+                android:textColor="@color/colorHint"
+                android:textSize="20dp"
+                android:layout_margin="10dp"
+                android:drawablePadding="20dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/customer_pr_mobile"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ic_action_mobile"
+                android:textColor="@color/colorHint"
+                android:textSize="20dp"
+                android:layout_margin="10dp"
+                android:drawablePadding="20dp"/>
+            <TextView
+                android:id="@+id/customer_pr_email"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ic_action_stat_email"
+                android:textColor="@color/colorHint"
+                android:textSize="20dp"
+                android:layout_margin="10dp"
+                android:drawablePadding="20dp"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/customer_pr_vehicle_no"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:drawableLeft="@drawable/ic_action_vehicle_no"
+                android:textColor="@color/colorHint"
+                android:textSize="20dp"
+                android:layout_margin="10dp"
+                android:drawablePadding="20dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/customer_pr_vehicle_type"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:drawableLeft="@drawable/ic_action_vehicle_type"
+                android:textColor="@color/colorHint"
+                android:textSize="20dp"
+                android:layout_margin="10dp"
+                android:drawablePadding="20dp"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/customer_pr_vehicle_brand"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:drawableLeft="@drawable/ic_action_vehicle_brand"
+                android:textColor="@color/colorHint"
+                android:textSize="20dp"
+                android:layout_margin="10dp"
+                android:drawablePadding="20dp"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/customer_pr_vehicle_subbrand"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:drawableLeft="@drawable/ic_action_vehicle_brand"
+                android:textColor="@color/colorHint"
+                android:textSize="20dp"
+                android:layout_margin="10dp"
+                android:drawablePadding="20dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/customer_pr_vehicle_fuel_type"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ic_action_fuel_type"
+                android:textColor="@color/colorHint"
+                android:textSize="20dp"
+                android:layout_margin="10dp"
+                android:drawablePadding="20dp"/>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/btn_submit_business"
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                app:cardBackgroundColor="@color/colorAccent"
+                android:layout_centerHorizontal="true"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="10dp"
+                android:layout_marginTop="50dp"
+                >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/profiledata_submit_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Submit"
+                        android:textSize="18dp"
+                        android:layout_centerInParent="true"
+                        android:textColor="@color/colorLinks"
+                        />
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+</ScrollView>
+
+
